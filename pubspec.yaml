@@ -1,0 +1,32 @@
+name: travel_go
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Supabase e Autenticação/Banco
+  supabase_flutter: ^2.8.0
+
+  # Comunicação HTTP para APIs externas (Google Places / REST Countries)
+  http: ^1.2.0
+
+  # Gerador de IDs únicos para novos modelos
+  uuid: ^4.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
